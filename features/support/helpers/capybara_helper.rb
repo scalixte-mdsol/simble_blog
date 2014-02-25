@@ -63,7 +63,7 @@ supported_browsers.each do |browser|
         capabilities = Selenium::WebDriver::Remote::Capabilities.internet_explorer(javascript_enabled: true, native_events: true)
         Capybara::Selenium::Driver.new(
             #app, browser: :remote, url: "http://#{ENV['SERVER_HOST']}:4444/wd/hub", desired_capabilities: capabilities
-            app, browser: :remote, url: "http://192.168.56.1:4445/wd/hub", desired_capabilities: capabilities
+            app, browser: :remote, url: "http://192.168.56.1:4444/wd/hub", desired_capabilities: capabilities
         )
       when :safari
         #Capybara::Selenium::Driver.new(app, :browser =&amp;gt; :safari)

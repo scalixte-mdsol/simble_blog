@@ -1,0 +1,233 @@
+[0.170][INFO]: COMMAND InitSession {
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "chrome.detach": true,
+      "chrome.prefs": {
+         "download": {
+            "default_directory": "/Users/scalixte/Development/Projects/tutorials/cucumber/simble_blog/tmp/downloads",
+            "prompt_for_download": false
+         }
+      },
+      "chromeOptions": {
+         "detach": true,
+         "prefs": {
+            "download": {
+               "default_directory": "/Users/scalixte/Development/Projects/tutorials/cucumber/simble_blog/tmp/downloads",
+               "prompt_for_download": false
+            }
+         }
+      },
+      "cssSelectorsEnabled": true,
+      "javascriptEnabled": true,
+      "nativeEvents": false,
+      "platform": "ANY",
+      "rotatable": false,
+      "takesScreenshot": false,
+      "version": ""
+   }
+}
+[0.218][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "show_welcome_page": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "/Users/scalixte/Development/Projects/tutorials/cucumber/simble_blog/tmp/downloads",
+      "prompt_for_download": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[0.219][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[0.270][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-background-networking --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --disable-hang-monitor --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-logging --full-memory-crash-report --ignore-certificate-errors --load-extension=/var/folders/1d/bg_cpcp57t3_s84rmk5wmywr5ndx9k/T/.org.chromium.Chromium.iNJfiB/internal --logging-level=1 --metrics-recording-only --no-first-run --password-store=basic --remote-debugging-port=12280 --safebrowsing-disable-auto-update --safebrowsing-disable-download-protection --use-mock-keychain --user-data-dir=/var/folders/1d/bg_cpcp57t3_s84rmk5wmywr5ndx9k/T/.org.chromium.Chromium.4z0Rom data:,
+[1.092][INFO]: RESPONSE InitSession {
+   "acceptSslCerts": true,
+   "applicationCacheEnabled": false,
+   "browserConnectionEnabled": false,
+   "browserName": "chrome",
+   "chrome": {
+      "userDataDir": "/var/folders/1d/bg_cpcp57t3_s84rmk5wmywr5ndx9k/T/.org.chromium.Chromium.4z0Rom"
+   },
+   "cssSelectorsEnabled": true,
+   "databaseEnabled": false,
+   "handlesAlerts": true,
+   "javascriptEnabled": true,
+   "locationContextEnabled": true,
+   "nativeEvents": true,
+   "platform": "Mac OS X",
+   "rotatable": false,
+   "takesHeapSnapshot": true,
+   "takesScreenshot": true,
+   "version": "33.0.1750.117",
+   "webStorageEnabled": true
+}
+[1.094][INFO]: COMMAND Navigate {
+   "url": "http://127.0.0.1:49239/"
+}
+[1.703][INFO]: Waiting for pending navigations...
+[1.703][INFO]: Done waiting for pending navigations
+[1.948][INFO]: Waiting for pending navigations...
+[2.533][INFO]: Done waiting for pending navigations
+[2.533][INFO]: RESPONSE Navigate
+[2.536][INFO]: COMMAND FindElements {
+   "using": "xpath",
+   "value": "/html"
+}
+[2.536][INFO]: Waiting for pending navigations...
+[2.536][INFO]: Done waiting for pending navigations
+[2.556][INFO]: Waiting for pending navigations...
+[2.556][INFO]: Done waiting for pending navigations
+[2.556][INFO]: RESPONSE FindElements [ {
+   "ELEMENT": "0.1759435252752155-1"
+} ]
+[2.559][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.1759435252752155-1"
+}
+[2.559][INFO]: Waiting for pending navigations...
+[2.559][INFO]: Done waiting for pending navigations
+[2.569][INFO]: Waiting for pending navigations...
+[2.569][INFO]: Done waiting for pending navigations
+[2.569][INFO]: RESPONSE IsElementDisplayed true
+[2.570][INFO]: COMMAND GetElementText {
+   "id": "0.1759435252752155-1"
+}
+[2.570][INFO]: Waiting for pending navigations...
+[2.570][INFO]: Done waiting for pending navigations
+[2.606][INFO]: Waiting for pending navigations...
+[2.606][INFO]: Done waiting for pending navigations
+[2.606][INFO]: RESPONSE GetElementText "3\n\nThese are the articles\n\nTitle:\nBy Julio\n\nView Article\n\nView Article\n\nTitle:\nBy Marino\n\nView Article\n\nView Article\n\nTitle:\nBy Garcia\n\nView Article\n\nView Article\n\nNew Article"
+[2.607][INFO]: COMMAND FindElements {
+   "using": "xpath",
+   "value": "/html"
+}
+[2.607][INFO]: Waiting for pending navigations...
+[2.607][INFO]: Done waiting for pending navigations
+[2.610][INFO]: Waiting for pending navigations...
+[2.610][INFO]: Done waiting for pending navigations
+[2.610][INFO]: RESPONSE FindElements [ {
+   "ELEMENT": "0.1759435252752155-1"
+} ]
+[2.611][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.1759435252752155-1"
+}
+[2.611][INFO]: Waiting for pending navigations...
+[2.611][INFO]: Done waiting for pending navigations
+[2.613][INFO]: Waiting for pending navigations...
+[2.613][INFO]: Done waiting for pending navigations
+[2.613][INFO]: RESPONSE IsElementDisplayed true
+[2.614][INFO]: COMMAND GetElementText {
+   "id": "0.1759435252752155-1"
+}
+[2.614][INFO]: Waiting for pending navigations...
+[2.614][INFO]: Done waiting for pending navigations
+[2.628][INFO]: Waiting for pending navigations...
+[2.628][INFO]: Done waiting for pending navigations
+[2.628][INFO]: RESPONSE GetElementText "3\n\nThese are the articles\n\nTitle:\nBy Julio\n\nView Article\n\nView Article\n\nTitle:\nBy Marino\n\nView Article\n\nView Article\n\nTitle:\nBy Garcia\n\nView Article\n\nView Article\n\nNew Article"
+[2.630][INFO]: COMMAND FindElements {
+   "using": "xpath",
+   "value": "/html"
+}
+[2.630][INFO]: Waiting for pending navigations...
+[2.630][INFO]: Done waiting for pending navigations
+[2.634][INFO]: Waiting for pending navigations...
+[2.634][INFO]: Done waiting for pending navigations
+[2.634][INFO]: RESPONSE FindElements [ {
+   "ELEMENT": "0.1759435252752155-1"
+} ]
+[2.635][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.1759435252752155-1"
+}
+[2.635][INFO]: Waiting for pending navigations...
+[2.635][INFO]: Done waiting for pending navigations
+[2.639][INFO]: Waiting for pending navigations...
+[2.639][INFO]: Done waiting for pending navigations
+[2.639][INFO]: RESPONSE IsElementDisplayed true
+[2.640][INFO]: COMMAND GetElementText {
+   "id": "0.1759435252752155-1"
+}
+[2.640][INFO]: Waiting for pending navigations...
+[2.640][INFO]: Done waiting for pending navigations
+[2.655][INFO]: Waiting for pending navigations...
+[2.655][INFO]: Done waiting for pending navigations
+[2.655][INFO]: RESPONSE GetElementText "3\n\nThese are the articles\n\nTitle:\nBy Julio\n\nView Article\n\nView Article\n\nTitle:\nBy Marino\n\nView Article\n\nView Article\n\nTitle:\nBy Garcia\n\nView Article\n\nView Article\n\nNew Article"
+[2.755][INFO]: COMMAND DeleteAllCookies {
+
+}
+[2.755][INFO]: Waiting for pending navigations...
+[2.755][INFO]: Done waiting for pending navigations
+[2.756][INFO]: Waiting for pending navigations...
+[2.756][INFO]: Done waiting for pending navigations
+[2.756][INFO]: RESPONSE DeleteAllCookies
+[2.757][INFO]: COMMAND Navigate {
+   "url": "about:blank"
+}
+[2.757][INFO]: Waiting for pending navigations...
+[2.757][INFO]: Done waiting for pending navigations
+[3.097][INFO]: Waiting for pending navigations...
+[3.097][INFO]: Done waiting for pending navigations
+[3.097][INFO]: RESPONSE Navigate
+[3.098][INFO]: COMMAND FindElements {
+   "using": "xpath",
+   "value": "/html/body/*"
+}
+[3.098][INFO]: Waiting for pending navigations...
+[3.098][INFO]: Done waiting for pending navigations
+[3.122][INFO]: Waiting for pending navigations...
+[3.122][INFO]: Done waiting for pending navigations
+[3.122][INFO]: RESPONSE FindElements [  ]
+[3.177][INFO]: COMMAND Quit {
+
+}
+[3.228][INFO]: RESPONSE Quit

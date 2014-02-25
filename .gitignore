@@ -12,6 +12,21 @@ capybara-*.html
 /public/system/*
 /coverage/
 /spec/tmp/*
+lib/bundler/man
+pkg
+rdoc
+spec/reports
+test/tmp
+test/version_tmp
+coverage/
+Vagrantfile
+.vagrant/
+
+# YARD artifacts
+.yardoc
+_yardoc
+doc/
+
 **.orig
 rerun.txt
 pickle-email-*.html

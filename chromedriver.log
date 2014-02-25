@@ -1,4 +1,4 @@
-[0.170][INFO]: COMMAND InitSession {
+[0.233][INFO]: COMMAND InitSession {
    "desiredCapabilities": {
       "browserName": "chrome",
       "chrome.detach": true,
@@ -26,7 +26,7 @@
       "version": ""
    }
 }
-[0.218][INFO]: Populating Preferences file: {
+[0.237][INFO]: Populating Preferences file: {
    "alternate_error_pages": {
       "enabled": false
    },
@@ -81,7 +81,7 @@
       "enabled": false
    }
 }
-[0.219][INFO]: Populating Local State file: {
+[0.237][INFO]: Populating Local State file: {
    "background_mode": {
       "enabled": false
    },
@@ -91,14 +91,14 @@
       }
    }
 }
-[0.270][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-background-networking --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --disable-hang-monitor --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-logging --full-memory-crash-report --ignore-certificate-errors --load-extension=/var/folders/1d/bg_cpcp57t3_s84rmk5wmywr5ndx9k/T/.org.chromium.Chromium.iNJfiB/internal --logging-level=1 --metrics-recording-only --no-first-run --password-store=basic --remote-debugging-port=12280 --safebrowsing-disable-auto-update --safebrowsing-disable-download-protection --use-mock-keychain --user-data-dir=/var/folders/1d/bg_cpcp57t3_s84rmk5wmywr5ndx9k/T/.org.chromium.Chromium.4z0Rom data:,
-[1.092][INFO]: RESPONSE InitSession {
+[0.245][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-background-networking --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --disable-hang-monitor --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-logging --full-memory-crash-report --ignore-certificate-errors --load-extension=/var/folders/1d/bg_cpcp57t3_s84rmk5wmywr5ndx9k/T/.org.chromium.Chromium.MqXLTS/internal --logging-level=1 --metrics-recording-only --no-first-run --password-store=basic --remote-debugging-port=12107 --safebrowsing-disable-auto-update --safebrowsing-disable-download-protection --use-mock-keychain --user-data-dir=/var/folders/1d/bg_cpcp57t3_s84rmk5wmywr5ndx9k/T/.org.chromium.Chromium.O5Knkg data:,
+[0.796][INFO]: RESPONSE InitSession {
    "acceptSslCerts": true,
    "applicationCacheEnabled": false,
    "browserConnectionEnabled": false,
    "browserName": "chrome",
    "chrome": {
-      "userDataDir": "/var/folders/1d/bg_cpcp57t3_s84rmk5wmywr5ndx9k/T/.org.chromium.Chromium.4z0Rom"
+      "userDataDir": "/var/folders/1d/bg_cpcp57t3_s84rmk5wmywr5ndx9k/T/.org.chromium.Chromium.O5Knkg"
    },
    "cssSelectorsEnabled": true,
    "databaseEnabled": false,
@@ -113,121 +113,414 @@
    "version": "33.0.1750.117",
    "webStorageEnabled": true
 }
-[1.094][INFO]: COMMAND Navigate {
-   "url": "http://127.0.0.1:49239/"
+[0.798][INFO]: COMMAND Navigate {
+   "url": "http://127.0.0.1:54872/"
 }
-[1.703][INFO]: Waiting for pending navigations...
-[1.703][INFO]: Done waiting for pending navigations
-[1.948][INFO]: Waiting for pending navigations...
-[2.533][INFO]: Done waiting for pending navigations
-[2.533][INFO]: RESPONSE Navigate
-[2.536][INFO]: COMMAND FindElements {
+[0.984][INFO]: Waiting for pending navigations...
+[0.998][INFO]: Done waiting for pending navigations
+[1.245][INFO]: Waiting for pending navigations...
+[1.580][INFO]: Done waiting for pending navigations
+[1.580][INFO]: RESPONSE Navigate
+[1.660][INFO]: COMMAND Navigate {
+   "url": "http://127.0.0.1:54872/"
+}
+[1.660][INFO]: Waiting for pending navigations...
+[1.660][INFO]: Done waiting for pending navigations
+[1.664][INFO]: Waiting for pending navigations...
+[1.700][INFO]: Done waiting for pending navigations
+[1.700][INFO]: RESPONSE Navigate
+[1.702][INFO]: COMMAND FindElements {
    "using": "xpath",
    "value": "/html"
 }
-[2.536][INFO]: Waiting for pending navigations...
-[2.536][INFO]: Done waiting for pending navigations
-[2.556][INFO]: Waiting for pending navigations...
-[2.556][INFO]: Done waiting for pending navigations
-[2.556][INFO]: RESPONSE FindElements [ {
-   "ELEMENT": "0.1759435252752155-1"
+[1.702][INFO]: Waiting for pending navigations...
+[1.702][INFO]: Done waiting for pending navigations
+[1.743][INFO]: Waiting for pending navigations...
+[1.743][INFO]: Done waiting for pending navigations
+[1.743][INFO]: RESPONSE FindElements [ {
+   "ELEMENT": "0.20296623720787466-1"
 } ]
-[2.559][INFO]: COMMAND IsElementDisplayed {
-   "id": "0.1759435252752155-1"
+[1.748][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.20296623720787466-1"
 }
-[2.559][INFO]: Waiting for pending navigations...
-[2.559][INFO]: Done waiting for pending navigations
-[2.569][INFO]: Waiting for pending navigations...
-[2.569][INFO]: Done waiting for pending navigations
-[2.569][INFO]: RESPONSE IsElementDisplayed true
-[2.570][INFO]: COMMAND GetElementText {
-   "id": "0.1759435252752155-1"
+[1.748][INFO]: Waiting for pending navigations...
+[1.748][INFO]: Done waiting for pending navigations
+[1.761][INFO]: Waiting for pending navigations...
+[1.761][INFO]: Done waiting for pending navigations
+[1.761][INFO]: RESPONSE IsElementDisplayed true
+[1.762][INFO]: COMMAND GetElementText {
+   "id": "0.20296623720787466-1"
 }
-[2.570][INFO]: Waiting for pending navigations...
-[2.570][INFO]: Done waiting for pending navigations
-[2.606][INFO]: Waiting for pending navigations...
-[2.606][INFO]: Done waiting for pending navigations
-[2.606][INFO]: RESPONSE GetElementText "3\n\nThese are the articles\n\nTitle:\nBy Julio\n\nView Article\n\nView Article\n\nTitle:\nBy Marino\n\nView Article\n\nView Article\n\nTitle:\nBy Garcia\n\nView Article\n\nView Article\n\nNew Article"
-[2.607][INFO]: COMMAND FindElements {
+[1.762][INFO]: Waiting for pending navigations...
+[1.762][INFO]: Done waiting for pending navigations
+[1.791][INFO]: Waiting for pending navigations...
+[1.791][INFO]: Done waiting for pending navigations
+[1.791][INFO]: RESPONSE GetElementText "3\n\nThese are the articles\n\nTitle: La vie en rose\nBy Stanley\n\nView Article\n\nView Article\n\nTitle: La vida en rosa\nBy Julio\n\nView Article\n\nView Article\n\nTitle: Vita in Rosea\nBy Ceasar\n\nView Article\n\nV..."
+[1.793][INFO]: COMMAND FindElements {
    "using": "xpath",
    "value": "/html"
 }
-[2.607][INFO]: Waiting for pending navigations...
-[2.607][INFO]: Done waiting for pending navigations
-[2.610][INFO]: Waiting for pending navigations...
-[2.610][INFO]: Done waiting for pending navigations
-[2.610][INFO]: RESPONSE FindElements [ {
-   "ELEMENT": "0.1759435252752155-1"
+[1.793][INFO]: Waiting for pending navigations...
+[1.793][INFO]: Done waiting for pending navigations
+[1.797][INFO]: Waiting for pending navigations...
+[1.797][INFO]: Done waiting for pending navigations
+[1.797][INFO]: RESPONSE FindElements [ {
+   "ELEMENT": "0.20296623720787466-1"
 } ]
-[2.611][INFO]: COMMAND IsElementDisplayed {
-   "id": "0.1759435252752155-1"
+[1.798][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.20296623720787466-1"
 }
-[2.611][INFO]: Waiting for pending navigations...
-[2.611][INFO]: Done waiting for pending navigations
-[2.613][INFO]: Waiting for pending navigations...
-[2.613][INFO]: Done waiting for pending navigations
-[2.613][INFO]: RESPONSE IsElementDisplayed true
-[2.614][INFO]: COMMAND GetElementText {
-   "id": "0.1759435252752155-1"
+[1.798][INFO]: Waiting for pending navigations...
+[1.798][INFO]: Done waiting for pending navigations
+[1.811][INFO]: Waiting for pending navigations...
+[1.811][INFO]: Done waiting for pending navigations
+[1.811][INFO]: RESPONSE IsElementDisplayed true
+[1.812][INFO]: COMMAND GetElementText {
+   "id": "0.20296623720787466-1"
 }
-[2.614][INFO]: Waiting for pending navigations...
-[2.614][INFO]: Done waiting for pending navigations
-[2.628][INFO]: Waiting for pending navigations...
-[2.628][INFO]: Done waiting for pending navigations
-[2.628][INFO]: RESPONSE GetElementText "3\n\nThese are the articles\n\nTitle:\nBy Julio\n\nView Article\n\nView Article\n\nTitle:\nBy Marino\n\nView Article\n\nView Article\n\nTitle:\nBy Garcia\n\nView Article\n\nView Article\n\nNew Article"
-[2.630][INFO]: COMMAND FindElements {
+[1.812][INFO]: Waiting for pending navigations...
+[1.812][INFO]: Done waiting for pending navigations
+[1.827][INFO]: Waiting for pending navigations...
+[1.827][INFO]: Done waiting for pending navigations
+[1.827][INFO]: RESPONSE GetElementText "3\n\nThese are the articles\n\nTitle: La vie en rose\nBy Stanley\n\nView Article\n\nView Article\n\nTitle: La vida en rosa\nBy Julio\n\nView Article\n\nView Article\n\nTitle: Vita in Rosea\nBy Ceasar\n\nView Article\n\nV..."
+[1.829][INFO]: COMMAND FindElements {
    "using": "xpath",
    "value": "/html"
 }
-[2.630][INFO]: Waiting for pending navigations...
-[2.630][INFO]: Done waiting for pending navigations
-[2.634][INFO]: Waiting for pending navigations...
-[2.634][INFO]: Done waiting for pending navigations
-[2.634][INFO]: RESPONSE FindElements [ {
-   "ELEMENT": "0.1759435252752155-1"
+[1.829][INFO]: Waiting for pending navigations...
+[1.829][INFO]: Done waiting for pending navigations
+[1.833][INFO]: Waiting for pending navigations...
+[1.833][INFO]: Done waiting for pending navigations
+[1.833][INFO]: RESPONSE FindElements [ {
+   "ELEMENT": "0.20296623720787466-1"
 } ]
-[2.635][INFO]: COMMAND IsElementDisplayed {
-   "id": "0.1759435252752155-1"
+[1.833][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.20296623720787466-1"
 }
-[2.635][INFO]: Waiting for pending navigations...
-[2.635][INFO]: Done waiting for pending navigations
-[2.639][INFO]: Waiting for pending navigations...
-[2.639][INFO]: Done waiting for pending navigations
-[2.639][INFO]: RESPONSE IsElementDisplayed true
-[2.640][INFO]: COMMAND GetElementText {
-   "id": "0.1759435252752155-1"
+[1.833][INFO]: Waiting for pending navigations...
+[1.833][INFO]: Done waiting for pending navigations
+[1.836][INFO]: Waiting for pending navigations...
+[1.836][INFO]: Done waiting for pending navigations
+[1.836][INFO]: RESPONSE IsElementDisplayed true
+[1.837][INFO]: COMMAND GetElementText {
+   "id": "0.20296623720787466-1"
 }
-[2.640][INFO]: Waiting for pending navigations...
-[2.640][INFO]: Done waiting for pending navigations
-[2.655][INFO]: Waiting for pending navigations...
-[2.655][INFO]: Done waiting for pending navigations
-[2.655][INFO]: RESPONSE GetElementText "3\n\nThese are the articles\n\nTitle:\nBy Julio\n\nView Article\n\nView Article\n\nTitle:\nBy Marino\n\nView Article\n\nView Article\n\nTitle:\nBy Garcia\n\nView Article\n\nView Article\n\nNew Article"
-[2.755][INFO]: COMMAND DeleteAllCookies {
+[1.837][INFO]: Waiting for pending navigations...
+[1.837][INFO]: Done waiting for pending navigations
+[1.851][INFO]: Waiting for pending navigations...
+[1.851][INFO]: Done waiting for pending navigations
+[1.851][INFO]: RESPONSE GetElementText "3\n\nThese are the articles\n\nTitle: La vie en rose\nBy Stanley\n\nView Article\n\nView Article\n\nTitle: La vida en rosa\nBy Julio\n\nView Article\n\nView Article\n\nTitle: Vita in Rosea\nBy Ceasar\n\nView Article\n\nV..."
+[1.875][INFO]: COMMAND DeleteAllCookies {
 
 }
-[2.755][INFO]: Waiting for pending navigations...
-[2.755][INFO]: Done waiting for pending navigations
-[2.756][INFO]: Waiting for pending navigations...
-[2.756][INFO]: Done waiting for pending navigations
-[2.756][INFO]: RESPONSE DeleteAllCookies
-[2.757][INFO]: COMMAND Navigate {
+[1.876][INFO]: Waiting for pending navigations...
+[1.876][INFO]: Done waiting for pending navigations
+[1.876][INFO]: Waiting for pending navigations...
+[1.876][INFO]: Done waiting for pending navigations
+[1.876][INFO]: RESPONSE DeleteAllCookies
+[1.877][INFO]: COMMAND Navigate {
    "url": "about:blank"
 }
-[2.757][INFO]: Waiting for pending navigations...
-[2.757][INFO]: Done waiting for pending navigations
-[3.097][INFO]: Waiting for pending navigations...
-[3.097][INFO]: Done waiting for pending navigations
-[3.097][INFO]: RESPONSE Navigate
-[3.098][INFO]: COMMAND FindElements {
+[1.877][INFO]: Waiting for pending navigations...
+[1.877][INFO]: Done waiting for pending navigations
+[2.219][INFO]: Waiting for pending navigations...
+[2.219][INFO]: Done waiting for pending navigations
+[2.219][INFO]: RESPONSE Navigate
+[2.220][INFO]: COMMAND FindElements {
    "using": "xpath",
    "value": "/html/body/*"
 }
-[3.098][INFO]: Waiting for pending navigations...
-[3.098][INFO]: Done waiting for pending navigations
-[3.122][INFO]: Waiting for pending navigations...
-[3.122][INFO]: Done waiting for pending navigations
-[3.122][INFO]: RESPONSE FindElements [  ]
-[3.177][INFO]: COMMAND Quit {
+[2.220][INFO]: Waiting for pending navigations...
+[2.220][INFO]: Done waiting for pending navigations
+[2.232][INFO]: Waiting for pending navigations...
+[2.232][INFO]: Done waiting for pending navigations
+[2.232][INFO]: RESPONSE FindElements [  ]
+[2.250][INFO]: COMMAND Navigate {
+   "url": "http://127.0.0.1:54872/"
+}
+[2.251][INFO]: Waiting for pending navigations...
+[2.251][INFO]: Done waiting for pending navigations
+[2.467][INFO]: Waiting for pending navigations...
+[2.695][INFO]: Done waiting for pending navigations
+[2.695][INFO]: RESPONSE Navigate
+[2.703][INFO]: COMMAND Navigate {
+   "url": "http://127.0.0.1:54872/"
+}
+[2.703][INFO]: Waiting for pending navigations...
+[2.703][INFO]: Done waiting for pending navigations
+[2.706][INFO]: Waiting for pending navigations...
+[2.746][INFO]: Done waiting for pending navigations
+[2.746][INFO]: RESPONSE Navigate
+[2.747][INFO]: COMMAND FindElements {
+   "using": "xpath",
+   "value": "/html"
+}
+[2.747][INFO]: Waiting for pending navigations...
+[2.747][INFO]: Done waiting for pending navigations
+[2.770][INFO]: Waiting for pending navigations...
+[2.770][INFO]: Done waiting for pending navigations
+[2.770][INFO]: RESPONSE FindElements [ {
+   "ELEMENT": "0.24988145916722715-1"
+} ]
+[2.771][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.24988145916722715-1"
+}
+[2.771][INFO]: Waiting for pending navigations...
+[2.771][INFO]: Done waiting for pending navigations
+[2.780][INFO]: Waiting for pending navigations...
+[2.780][INFO]: Done waiting for pending navigations
+[2.780][INFO]: RESPONSE IsElementDisplayed true
+[2.781][INFO]: COMMAND GetElementText {
+   "id": "0.24988145916722715-1"
+}
+[2.781][INFO]: Waiting for pending navigations...
+[2.781][INFO]: Done waiting for pending navigations
+[2.809][INFO]: Waiting for pending navigations...
+[2.809][INFO]: Done waiting for pending navigations
+[2.810][INFO]: RESPONSE GetElementText "3\n\nThese are the articles\n\nTitle: La vie en rose\nBy Stanley\n\nView Article\n\nView Article\n\nTitle: La vida en rosa\nBy Julio\n\nView Article\n\nView Article\n\nTitle: Vita in Rosea\nBy Ceasar\n\nView Article\n\nV..."
+[2.811][INFO]: COMMAND FindElements {
+   "using": "xpath",
+   "value": "/html"
+}
+[2.811][INFO]: Waiting for pending navigations...
+[2.811][INFO]: Done waiting for pending navigations
+[2.814][INFO]: Waiting for pending navigations...
+[2.814][INFO]: Done waiting for pending navigations
+[2.814][INFO]: RESPONSE FindElements [ {
+   "ELEMENT": "0.24988145916722715-1"
+} ]
+[2.815][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.24988145916722715-1"
+}
+[2.815][INFO]: Waiting for pending navigations...
+[2.815][INFO]: Done waiting for pending navigations
+[2.817][INFO]: Waiting for pending navigations...
+[2.817][INFO]: Done waiting for pending navigations
+[2.817][INFO]: RESPONSE IsElementDisplayed true
+[2.819][INFO]: COMMAND GetElementText {
+   "id": "0.24988145916722715-1"
+}
+[2.819][INFO]: Waiting for pending navigations...
+[2.819][INFO]: Done waiting for pending navigations
+[2.833][INFO]: Waiting for pending navigations...
+[2.833][INFO]: Done waiting for pending navigations
+[2.833][INFO]: RESPONSE GetElementText "3\n\nThese are the articles\n\nTitle: La vie en rose\nBy Stanley\n\nView Article\n\nView Article\n\nTitle: La vida en rosa\nBy Julio\n\nView Article\n\nView Article\n\nTitle: Vita in Rosea\nBy Ceasar\n\nView Article\n\nV..."
+[2.902][INFO]: COMMAND DeleteAllCookies {
 
 }
-[3.228][INFO]: RESPONSE Quit
+[2.902][INFO]: Waiting for pending navigations...
+[2.902][INFO]: Done waiting for pending navigations
+[2.903][INFO]: Waiting for pending navigations...
+[2.903][INFO]: Done waiting for pending navigations
+[2.903][INFO]: RESPONSE DeleteAllCookies
+[2.904][INFO]: COMMAND Navigate {
+   "url": "about:blank"
+}
+[2.904][INFO]: Waiting for pending navigations...
+[2.904][INFO]: Done waiting for pending navigations
+[3.120][INFO]: Waiting for pending navigations...
+[3.120][INFO]: Done waiting for pending navigations
+[3.120][INFO]: RESPONSE Navigate
+[3.122][INFO]: COMMAND FindElements {
+   "using": "xpath",
+   "value": "/html/body/*"
+}
+[3.122][INFO]: Waiting for pending navigations...
+[3.122][INFO]: Done waiting for pending navigations
+[3.164][INFO]: Waiting for pending navigations...
+[3.164][INFO]: Done waiting for pending navigations
+[3.164][INFO]: RESPONSE FindElements [  ]
+[3.174][INFO]: COMMAND Navigate {
+   "url": "http://127.0.0.1:54872/"
+}
+[3.174][INFO]: Waiting for pending navigations...
+[3.174][INFO]: Done waiting for pending navigations
+[3.389][INFO]: Waiting for pending navigations...
+[3.486][INFO]: Done waiting for pending navigations
+[3.486][INFO]: RESPONSE Navigate
+[3.493][INFO]: COMMAND Navigate {
+   "url": "http://127.0.0.1:54872/"
+}
+[3.493][INFO]: Waiting for pending navigations...
+[3.493][INFO]: Done waiting for pending navigations
+[3.504][INFO]: Waiting for pending navigations...
+[3.589][INFO]: Done waiting for pending navigations
+[3.589][INFO]: RESPONSE Navigate
+[3.592][INFO]: COMMAND FindElements {
+   "using": "xpath",
+   "value": "/html"
+}
+[3.592][INFO]: Waiting for pending navigations...
+[3.592][INFO]: Done waiting for pending navigations
+[3.611][INFO]: Waiting for pending navigations...
+[3.611][INFO]: Done waiting for pending navigations
+[3.611][INFO]: RESPONSE FindElements [ {
+   "ELEMENT": "0.4947396167553961-1"
+} ]
+[3.612][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.4947396167553961-1"
+}
+[3.612][INFO]: Waiting for pending navigations...
+[3.612][INFO]: Done waiting for pending navigations
+[3.621][INFO]: Waiting for pending navigations...
+[3.621][INFO]: Done waiting for pending navigations
+[3.621][INFO]: RESPONSE IsElementDisplayed true
+[3.622][INFO]: COMMAND GetElementText {
+   "id": "0.4947396167553961-1"
+}
+[3.622][INFO]: Waiting for pending navigations...
+[3.622][INFO]: Done waiting for pending navigations
+[3.653][INFO]: Waiting for pending navigations...
+[3.653][INFO]: Done waiting for pending navigations
+[3.653][INFO]: RESPONSE GetElementText "3\n\nThese are the articles\n\nTitle: La vie en rose\nBy Stanley\n\nView Article\n\nView Article\n\nTitle: La vida en rosa\nBy Julio\n\nView Article\n\nView Article\n\nTitle: Vita in Rosea\nBy Ceasar\n\nView Article\n\nV..."
+[3.655][INFO]: COMMAND FindElements {
+   "using": "xpath",
+   "value": "/html"
+}
+[3.655][INFO]: Waiting for pending navigations...
+[3.655][INFO]: Done waiting for pending navigations
+[3.659][INFO]: Waiting for pending navigations...
+[3.659][INFO]: Done waiting for pending navigations
+[3.659][INFO]: RESPONSE FindElements [ {
+   "ELEMENT": "0.4947396167553961-1"
+} ]
+[3.660][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.4947396167553961-1"
+}
+[3.660][INFO]: Waiting for pending navigations...
+[3.660][INFO]: Done waiting for pending navigations
+[3.663][INFO]: Waiting for pending navigations...
+[3.663][INFO]: Done waiting for pending navigations
+[3.663][INFO]: RESPONSE IsElementDisplayed true
+[3.664][INFO]: COMMAND GetElementText {
+   "id": "0.4947396167553961-1"
+}
+[3.664][INFO]: Waiting for pending navigations...
+[3.664][INFO]: Done waiting for pending navigations
+[3.680][INFO]: Waiting for pending navigations...
+[3.680][INFO]: Done waiting for pending navigations
+[3.680][INFO]: RESPONSE GetElementText "3\n\nThese are the articles\n\nTitle: La vie en rose\nBy Stanley\n\nView Article\n\nView Article\n\nTitle: La vida en rosa\nBy Julio\n\nView Article\n\nView Article\n\nTitle: Vita in Rosea\nBy Ceasar\n\nView Article\n\nV..."
+[3.700][INFO]: COMMAND DeleteAllCookies {
+
+}
+[3.700][INFO]: Waiting for pending navigations...
+[3.700][INFO]: Done waiting for pending navigations
+[3.701][INFO]: Waiting for pending navigations...
+[3.701][INFO]: Done waiting for pending navigations
+[3.701][INFO]: RESPONSE DeleteAllCookies
+[3.701][INFO]: COMMAND Navigate {
+   "url": "about:blank"
+}
+[3.702][INFO]: Waiting for pending navigations...
+[3.702][INFO]: Done waiting for pending navigations
+[4.080][INFO]: Waiting for pending navigations...
+[4.080][INFO]: Done waiting for pending navigations
+[4.080][INFO]: RESPONSE Navigate
+[4.082][INFO]: COMMAND FindElements {
+   "using": "xpath",
+   "value": "/html/body/*"
+}
+[4.082][INFO]: Waiting for pending navigations...
+[4.082][INFO]: Done waiting for pending navigations
+[4.097][INFO]: Waiting for pending navigations...
+[4.097][INFO]: Done waiting for pending navigations
+[4.097][INFO]: RESPONSE FindElements [  ]
+[4.107][INFO]: COMMAND Navigate {
+   "url": "http://127.0.0.1:54872/"
+}
+[4.107][INFO]: Waiting for pending navigations...
+[4.107][INFO]: Done waiting for pending navigations
+[4.309][INFO]: Waiting for pending navigations...
+[4.550][INFO]: Done waiting for pending navigations
+[4.550][INFO]: RESPONSE Navigate
+[4.561][INFO]: COMMAND Navigate {
+   "url": "http://127.0.0.1:54872/"
+}
+[4.561][INFO]: Waiting for pending navigations...
+[4.561][INFO]: Done waiting for pending navigations
+[4.577][INFO]: Waiting for pending navigations...
+[4.631][INFO]: Done waiting for pending navigations
+[4.631][INFO]: RESPONSE Navigate
+[4.634][INFO]: COMMAND FindElements {
+   "using": "xpath",
+   "value": "/html"
+}
+[4.634][INFO]: Waiting for pending navigations...
+[4.634][INFO]: Done waiting for pending navigations
+[4.646][INFO]: Waiting for pending navigations...
+[4.646][INFO]: Done waiting for pending navigations
+[4.646][INFO]: RESPONSE FindElements [ {
+   "ELEMENT": "0.9412923380732536-1"
+} ]
+[4.647][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.9412923380732536-1"
+}
+[4.647][INFO]: Waiting for pending navigations...
+[4.647][INFO]: Done waiting for pending navigations
+[4.657][INFO]: Waiting for pending navigations...
+[4.657][INFO]: Done waiting for pending navigations
+[4.657][INFO]: RESPONSE IsElementDisplayed true
+[4.658][INFO]: COMMAND GetElementText {
+   "id": "0.9412923380732536-1"
+}
+[4.658][INFO]: Waiting for pending navigations...
+[4.658][INFO]: Done waiting for pending navigations
+[4.687][INFO]: Waiting for pending navigations...
+[4.687][INFO]: Done waiting for pending navigations
+[4.687][INFO]: RESPONSE GetElementText "3\n\nThese are the articles\n\nTitle: La vie en rose\nBy Stanley\n\nView Article\n\nView Article\n\nTitle: La vida en rosa\nBy Julio\n\nView Article\n\nView Article\n\nTitle: Vita in Rosea\nBy Ceasar\n\nView Article\n\nV..."
+[4.689][INFO]: COMMAND FindElements {
+   "using": "xpath",
+   "value": "/html"
+}
+[4.689][INFO]: Waiting for pending navigations...
+[4.689][INFO]: Done waiting for pending navigations
+[4.693][INFO]: Waiting for pending navigations...
+[4.693][INFO]: Done waiting for pending navigations
+[4.693][INFO]: RESPONSE FindElements [ {
+   "ELEMENT": "0.9412923380732536-1"
+} ]
+[4.694][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.9412923380732536-1"
+}
+[4.694][INFO]: Waiting for pending navigations...
+[4.694][INFO]: Done waiting for pending navigations
+[4.696][INFO]: Waiting for pending navigations...
+[4.696][INFO]: Done waiting for pending navigations
+[4.696][INFO]: RESPONSE IsElementDisplayed true
+[4.697][INFO]: COMMAND GetElementText {
+   "id": "0.9412923380732536-1"
+}
+[4.697][INFO]: Waiting for pending navigations...
+[4.697][INFO]: Done waiting for pending navigations
+[4.711][INFO]: Waiting for pending navigations...
+[4.711][INFO]: Done waiting for pending navigations
+[4.711][INFO]: RESPONSE GetElementText "3\n\nThese are the articles\n\nTitle: La vie en rose\nBy Stanley\n\nView Article\n\nView Article\n\nTitle: La vida en rosa\nBy Julio\n\nView Article\n\nView Article\n\nTitle: Vita in Rosea\nBy Ceasar\n\nView Article\n\nV..."
+[4.840][INFO]: COMMAND DeleteAllCookies {
+
+}
+[4.840][INFO]: Waiting for pending navigations...
+[4.841][INFO]: Done waiting for pending navigations
+[4.841][INFO]: Waiting for pending navigations...
+[4.842][INFO]: Done waiting for pending navigations
+[4.842][INFO]: RESPONSE DeleteAllCookies
+[4.842][INFO]: COMMAND Navigate {
+   "url": "about:blank"
+}
+[4.842][INFO]: Waiting for pending navigations...
+[4.842][INFO]: Done waiting for pending navigations
+[5.109][INFO]: Waiting for pending navigations...
+[5.110][INFO]: Done waiting for pending navigations
+[5.110][INFO]: RESPONSE Navigate
+[5.111][INFO]: COMMAND FindElements {
+   "using": "xpath",
+   "value": "/html/body/*"
+}
+[5.111][INFO]: Waiting for pending navigations...
+[5.111][INFO]: Done waiting for pending navigations
+[5.126][INFO]: Waiting for pending navigations...
+[5.126][INFO]: Done waiting for pending navigations
+[5.126][INFO]: RESPONSE FindElements [  ]
+[5.135][INFO]: COMMAND Quit {
+
+}
+[5.186][INFO]: RESPONSE Quit

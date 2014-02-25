@@ -37,8 +37,8 @@ end
 Then /^I should see "([^\"]*)"$/ do |text|
   #print "\n******\n" + page.body.to_s + "\n*****\n"
   #page.body.should have_content(text)
-  #page.should have_content(text)
-  expect(page).to have_content(text)
+  page.should have_content(text)
+  #expect(page).to have_content(text)
 end
 
 Given /^I have no articles(?:|.*)$/ do
@@ -64,7 +64,7 @@ end
 Then /^I should see under "(.*?)": (?:|")(.+)(?:|")$/ do |field, values|
   values.split(', ').each do |value|
     text = value.sub('and ','')
-    expect(page).to have_content(text)
-    #page.should have_content(text)
+    #expect(page).to have_content(text)
+    page.should have_content(text)
   end
 end
